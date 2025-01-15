@@ -1,0 +1,92 @@
+/* General Body Styling */
+body {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12pt;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    color: #2a2a2a;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 24pt;
+}
+
+h2 {
+    font-size: 20pt;
+}
+
+h3 {
+    font-size: 16pt;
+}
+
+/* Paragraphs */
+p {
+    margin: 10px 0;
+    font-size: 12pt;
+}
+
+/* Links */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+    margin: 10px 0 10px 20px;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 12pt;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Custom Classes */
+.custom-highlight {
+    background-color: #ffffcc;
+    padding: 10px;
+    border-left: 4px solid #ffcc00;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
